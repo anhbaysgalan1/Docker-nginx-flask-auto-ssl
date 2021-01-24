@@ -4,7 +4,7 @@ echo "### Building container ..."
 docker-compose build --no-cache
 echo
 
-domains=("dan.mind.mn", "www.dan.mind.mn")
+domains=(dan.mind.mn, www.dan.mind.mn)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="anhbaysgalan1@gmail.com" # Adding a valid address is strongly recommended
